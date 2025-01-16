@@ -1,0 +1,827 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "Connected Glass",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"retr_glass_clear_glass_default": {
+			"textures": "textures/blocks/clear_glass/clear_glass_default"
+		},
+		"retr_glass_clear_glass_right": {
+			"textures": "textures/blocks/clear_glass/clear_glass_right"
+		},
+		"retr_glass_clear_glass_down": {
+			"textures": "textures/blocks/clear_glass/clear_glass_down"
+		},
+		"retr_glass_clear_glass_left": {
+			"textures": "textures/blocks/clear_glass/clear_glass_left"
+		},
+		"retr_glass_clear_glass_up": {
+			"textures": "textures/blocks/clear_glass/clear_glass_up"
+		},
+		"retr_glass_clear_glass_corner_1": {
+			"textures": "textures/blocks/clear_glass/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_corner_2": {
+			"textures": "textures/blocks/clear_glass/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_corner_3": {
+			"textures": "textures/blocks/clear_glass/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_corner_4": {
+			"textures": "textures/blocks/clear_glass/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_side_1": {
+			"textures": "textures/blocks/clear_glass/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_side_2": {
+			"textures": "textures/blocks/clear_glass/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_side_3": {
+			"textures": "textures/blocks/clear_glass/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_side_4": {
+			"textures": "textures/blocks/clear_glass/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_straight_1": {
+			"textures": "textures/blocks/clear_glass/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_straight_2": {
+			"textures": "textures/blocks/clear_glass/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_intersection": {
+			"textures": "textures/blocks/clear_glass/clear_glass_intersection"
+		},
+		"retr_glass_clear_glass_empty": {
+			"textures": "textures/blocks/clear_glass/clear_glass_empty"
+		},
+		"retr_glass_clear_glass_purple_default": {
+			"textures": "textures/blocks/clear_glass_purple/clear_glass_default"
+		},
+		"retr_glass_clear_glass_purple_right": {
+			"textures": "textures/blocks/clear_glass_purple/clear_glass_right"
+		},
+		"retr_glass_clear_glass_purple_down": {
+			"textures": "textures/blocks/clear_glass_purple/clear_glass_down"
+		},
+		"retr_glass_clear_glass_purple_left": {
+			"textures": "textures/blocks/clear_glass_purple/clear_glass_left"
+		},
+		"retr_glass_clear_glass_purple_up": {
+			"textures": "textures/blocks/clear_glass_purple/clear_glass_up"
+		},
+		"retr_glass_clear_glass_purple_corner_1": {
+			"textures": "textures/blocks/clear_glass_purple/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_purple_corner_2": {
+			"textures": "textures/blocks/clear_glass_purple/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_purple_corner_3": {
+			"textures": "textures/blocks/clear_glass_purple/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_purple_corner_4": {
+			"textures": "textures/blocks/clear_glass_purple/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_purple_side_1": {
+			"textures": "textures/blocks/clear_glass_purple/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_purple_side_2": {
+			"textures": "textures/blocks/clear_glass_purple/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_purple_side_3": {
+			"textures": "textures/blocks/clear_glass_purple/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_purple_side_4": {
+			"textures": "textures/blocks/clear_glass_purple/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_purple_straight_1": {
+			"textures": "textures/blocks/clear_glass_purple/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_purple_straight_2": {
+			"textures": "textures/blocks/clear_glass_purple/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_purple_intersection": {
+			"textures": "textures/blocks/clear_glass_purple/clear_glass_intersection"
+		},
+		"retr_glass_clear_glass_black_default": {
+			"textures": "textures/blocks/clear_glass_black/clear_glass_default"
+		},
+		"retr_glass_clear_glass_black_right": {
+			"textures": "textures/blocks/clear_glass_black/clear_glass_right"
+		},
+		"retr_glass_clear_glass_black_down": {
+			"textures": "textures/blocks/clear_glass_black/clear_glass_down"
+		},
+		"retr_glass_clear_glass_black_left": {
+			"textures": "textures/blocks/clear_glass_black/clear_glass_left"
+		},
+		"retr_glass_clear_glass_black_up": {
+			"textures": "textures/blocks/clear_glass_black/clear_glass_up"
+		},
+		"retr_glass_clear_glass_black_corner_1": {
+			"textures": "textures/blocks/clear_glass_black/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_black_corner_2": {
+			"textures": "textures/blocks/clear_glass_black/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_black_corner_3": {
+			"textures": "textures/blocks/clear_glass_black/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_black_corner_4": {
+			"textures": "textures/blocks/clear_glass_black/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_black_side_1": {
+			"textures": "textures/blocks/clear_glass_black/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_black_side_2": {
+			"textures": "textures/blocks/clear_glass_black/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_black_side_3": {
+			"textures": "textures/blocks/clear_glass_black/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_black_side_4": {
+			"textures": "textures/blocks/clear_glass_black/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_black_straight_1": {
+			"textures": "textures/blocks/clear_glass_black/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_black_straight_2": {
+			"textures": "textures/blocks/clear_glass_black/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_black_intersection": {
+			"textures": "textures/blocks/clear_glass_black/clear_glass_intersection"
+		},
+		"retr_glass_clear_glass_blue_default": {
+			"textures": "textures/blocks/clear_glass_blue/clear_glass_default"
+		},
+		"retr_glass_clear_glass_blue_right": {
+			"textures": "textures/blocks/clear_glass_blue/clear_glass_right"
+		},
+		"retr_glass_clear_glass_blue_down": {
+			"textures": "textures/blocks/clear_glass_blue/clear_glass_down"
+		},
+		"retr_glass_clear_glass_blue_left": {
+			"textures": "textures/blocks/clear_glass_blue/clear_glass_left"
+		},
+		"retr_glass_clear_glass_blue_up": {
+			"textures": "textures/blocks/clear_glass_blue/clear_glass_up"
+		},
+		"retr_glass_clear_glass_blue_corner_1": {
+			"textures": "textures/blocks/clear_glass_blue/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_blue_corner_2": {
+			"textures": "textures/blocks/clear_glass_blue/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_blue_corner_3": {
+			"textures": "textures/blocks/clear_glass_blue/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_blue_corner_4": {
+			"textures": "textures/blocks/clear_glass_blue/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_blue_side_1": {
+			"textures": "textures/blocks/clear_glass_blue/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_blue_side_2": {
+			"textures": "textures/blocks/clear_glass_blue/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_blue_side_3": {
+			"textures": "textures/blocks/clear_glass_blue/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_blue_side_4": {
+			"textures": "textures/blocks/clear_glass_blue/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_blue_straight_1": {
+			"textures": "textures/blocks/clear_glass_blue/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_blue_straight_2": {
+			"textures": "textures/blocks/clear_glass_blue/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_blue_intersection": {
+			"textures": "textures/blocks/clear_glass_blue/clear_glass_intersection"
+		},
+		"retr_glass_clear_glass_brown_default": {
+			"textures": "textures/blocks/clear_glass_brown/clear_glass_default"
+		},
+		"retr_glass_clear_glass_brown_right": {
+			"textures": "textures/blocks/clear_glass_brown/clear_glass_right"
+		},
+		"retr_glass_clear_glass_brown_down": {
+			"textures": "textures/blocks/clear_glass_brown/clear_glass_down"
+		},
+		"retr_glass_clear_glass_brown_left": {
+			"textures": "textures/blocks/clear_glass_brown/clear_glass_left"
+		},
+		"retr_glass_clear_glass_brown_up": {
+			"textures": "textures/blocks/clear_glass_brown/clear_glass_up"
+		},
+		"retr_glass_clear_glass_brown_corner_1": {
+			"textures": "textures/blocks/clear_glass_brown/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_brown_corner_2": {
+			"textures": "textures/blocks/clear_glass_brown/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_brown_corner_3": {
+			"textures": "textures/blocks/clear_glass_brown/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_brown_corner_4": {
+			"textures": "textures/blocks/clear_glass_brown/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_brown_side_1": {
+			"textures": "textures/blocks/clear_glass_brown/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_brown_side_2": {
+			"textures": "textures/blocks/clear_glass_brown/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_brown_side_3": {
+			"textures": "textures/blocks/clear_glass_brown/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_brown_side_4": {
+			"textures": "textures/blocks/clear_glass_brown/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_brown_straight_1": {
+			"textures": "textures/blocks/clear_glass_brown/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_brown_straight_2": {
+			"textures": "textures/blocks/clear_glass_brown/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_brown_intersection": {
+			"textures": "textures/blocks/clear_glass_brown/clear_glass_intersection"
+		},
+		"retr_glass_clear_glass_cyan_default": {
+			"textures": "textures/blocks/clear_glass_cyan/clear_glass_default"
+		},
+		"retr_glass_clear_glass_cyan_right": {
+			"textures": "textures/blocks/clear_glass_cyan/clear_glass_right"
+		},
+		"retr_glass_clear_glass_cyan_down": {
+			"textures": "textures/blocks/clear_glass_cyan/clear_glass_down"
+		},
+		"retr_glass_clear_glass_cyan_left": {
+			"textures": "textures/blocks/clear_glass_cyan/clear_glass_left"
+		},
+		"retr_glass_clear_glass_cyan_up": {
+			"textures": "textures/blocks/clear_glass_cyan/clear_glass_up"
+		},
+		"retr_glass_clear_glass_cyan_corner_1": {
+			"textures": "textures/blocks/clear_glass_cyan/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_cyan_corner_2": {
+			"textures": "textures/blocks/clear_glass_cyan/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_cyan_corner_3": {
+			"textures": "textures/blocks/clear_glass_cyan/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_cyan_corner_4": {
+			"textures": "textures/blocks/clear_glass_cyan/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_cyan_side_1": {
+			"textures": "textures/blocks/clear_glass_cyan/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_cyan_side_2": {
+			"textures": "textures/blocks/clear_glass_cyan/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_cyan_side_3": {
+			"textures": "textures/blocks/clear_glass_cyan/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_cyan_side_4": {
+			"textures": "textures/blocks/clear_glass_cyan/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_cyan_straight_1": {
+			"textures": "textures/blocks/clear_glass_cyan/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_cyan_straight_2": {
+			"textures": "textures/blocks/clear_glass_cyan/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_cyan_intersection": {
+			"textures": "textures/blocks/clear_glass_cyan/clear_glass_intersection"
+		},
+		"retr_glass_clear_glass_gray_default": {
+			"textures": "textures/blocks/clear_glass_gray/clear_glass_default"
+		},
+		"retr_glass_clear_glass_gray_right": {
+			"textures": "textures/blocks/clear_glass_gray/clear_glass_right"
+		},
+		"retr_glass_clear_glass_gray_down": {
+			"textures": "textures/blocks/clear_glass_gray/clear_glass_down"
+		},
+		"retr_glass_clear_glass_gray_left": {
+			"textures": "textures/blocks/clear_glass_gray/clear_glass_left"
+		},
+		"retr_glass_clear_glass_gray_up": {
+			"textures": "textures/blocks/clear_glass_gray/clear_glass_up"
+		},
+		"retr_glass_clear_glass_gray_corner_1": {
+			"textures": "textures/blocks/clear_glass_gray/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_gray_corner_2": {
+			"textures": "textures/blocks/clear_glass_gray/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_gray_corner_3": {
+			"textures": "textures/blocks/clear_glass_gray/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_gray_corner_4": {
+			"textures": "textures/blocks/clear_glass_gray/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_gray_side_1": {
+			"textures": "textures/blocks/clear_glass_gray/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_gray_side_2": {
+			"textures": "textures/blocks/clear_glass_gray/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_gray_side_3": {
+			"textures": "textures/blocks/clear_glass_gray/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_gray_side_4": {
+			"textures": "textures/blocks/clear_glass_gray/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_gray_straight_1": {
+			"textures": "textures/blocks/clear_glass_gray/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_gray_straight_2": {
+			"textures": "textures/blocks/clear_glass_gray/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_gray_intersection": {
+			"textures": "textures/blocks/clear_glass_gray/clear_glass_intersection"
+		},
+		"retr_glass_clear_glass_green_default": {
+			"textures": "textures/blocks/clear_glass_green/clear_glass_default"
+		},
+		"retr_glass_clear_glass_green_right": {
+			"textures": "textures/blocks/clear_glass_green/clear_glass_right"
+		},
+		"retr_glass_clear_glass_green_down": {
+			"textures": "textures/blocks/clear_glass_green/clear_glass_down"
+		},
+		"retr_glass_clear_glass_green_left": {
+			"textures": "textures/blocks/clear_glass_green/clear_glass_left"
+		},
+		"retr_glass_clear_glass_green_up": {
+			"textures": "textures/blocks/clear_glass_green/clear_glass_up"
+		},
+		"retr_glass_clear_glass_green_corner_1": {
+			"textures": "textures/blocks/clear_glass_green/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_green_corner_2": {
+			"textures": "textures/blocks/clear_glass_green/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_green_corner_3": {
+			"textures": "textures/blocks/clear_glass_green/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_green_corner_4": {
+			"textures": "textures/blocks/clear_glass_green/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_green_side_1": {
+			"textures": "textures/blocks/clear_glass_green/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_green_side_2": {
+			"textures": "textures/blocks/clear_glass_green/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_green_side_3": {
+			"textures": "textures/blocks/clear_glass_green/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_green_side_4": {
+			"textures": "textures/blocks/clear_glass_green/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_green_straight_1": {
+			"textures": "textures/blocks/clear_glass_green/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_green_straight_2": {
+			"textures": "textures/blocks/clear_glass_green/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_green_intersection": {
+			"textures": "textures/blocks/clear_glass_green/clear_glass_intersection"
+		},
+		"retr_glass_clear_glass_light_blue_default": {
+			"textures": "textures/blocks/clear_glass_light_blue/clear_glass_default"
+		},
+		"retr_glass_clear_glass_light_blue_right": {
+			"textures": "textures/blocks/clear_glass_light_blue/clear_glass_right"
+		},
+		"retr_glass_clear_glass_light_blue_down": {
+			"textures": "textures/blocks/clear_glass_light_blue/clear_glass_down"
+		},
+		"retr_glass_clear_glass_light_blue_left": {
+			"textures": "textures/blocks/clear_glass_light_blue/clear_glass_left"
+		},
+		"retr_glass_clear_glass_light_blue_up": {
+			"textures": "textures/blocks/clear_glass_light_blue/clear_glass_up"
+		},
+		"retr_glass_clear_glass_light_blue_corner_1": {
+			"textures": "textures/blocks/clear_glass_light_blue/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_light_blue_corner_2": {
+			"textures": "textures/blocks/clear_glass_light_blue/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_light_blue_corner_3": {
+			"textures": "textures/blocks/clear_glass_light_blue/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_light_blue_corner_4": {
+			"textures": "textures/blocks/clear_glass_light_blue/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_light_blue_side_1": {
+			"textures": "textures/blocks/clear_glass_light_blue/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_light_blue_side_2": {
+			"textures": "textures/blocks/clear_glass_light_blue/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_light_blue_side_3": {
+			"textures": "textures/blocks/clear_glass_light_blue/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_light_blue_side_4": {
+			"textures": "textures/blocks/clear_glass_light_blue/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_light_blue_straight_1": {
+			"textures": "textures/blocks/clear_glass_light_blue/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_light_blue_straight_2": {
+			"textures": "textures/blocks/clear_glass_light_blue/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_light_blue_intersection": {
+			"textures": "textures/blocks/clear_glass_light_blue/clear_glass_intersection"
+		},
+		"retr_glass_clear_glass_lime_default": {
+			"textures": "textures/blocks/clear_glass_lime/clear_glass_default"
+		},
+		"retr_glass_clear_glass_lime_right": {
+			"textures": "textures/blocks/clear_glass_lime/clear_glass_right"
+		},
+		"retr_glass_clear_glass_lime_down": {
+			"textures": "textures/blocks/clear_glass_lime/clear_glass_down"
+		},
+		"retr_glass_clear_glass_lime_left": {
+			"textures": "textures/blocks/clear_glass_lime/clear_glass_left"
+		},
+		"retr_glass_clear_glass_lime_up": {
+			"textures": "textures/blocks/clear_glass_lime/clear_glass_up"
+		},
+		"retr_glass_clear_glass_lime_corner_1": {
+			"textures": "textures/blocks/clear_glass_lime/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_lime_corner_2": {
+			"textures": "textures/blocks/clear_glass_lime/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_lime_corner_3": {
+			"textures": "textures/blocks/clear_glass_lime/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_lime_corner_4": {
+			"textures": "textures/blocks/clear_glass_lime/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_lime_side_1": {
+			"textures": "textures/blocks/clear_glass_lime/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_lime_side_2": {
+			"textures": "textures/blocks/clear_glass_lime/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_lime_side_3": {
+			"textures": "textures/blocks/clear_glass_lime/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_lime_side_4": {
+			"textures": "textures/blocks/clear_glass_lime/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_lime_straight_1": {
+			"textures": "textures/blocks/clear_glass_lime/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_lime_straight_2": {
+			"textures": "textures/blocks/clear_glass_lime/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_lime_intersection": {
+			"textures": "textures/blocks/clear_glass_lime/clear_glass_intersection"
+		},
+		"retr_glass_clear_glass_magenta_default": {
+			"textures": "textures/blocks/clear_glass_magenta/clear_glass_default"
+		},
+		"retr_glass_clear_glass_magenta_right": {
+			"textures": "textures/blocks/clear_glass_magenta/clear_glass_right"
+		},
+		"retr_glass_clear_glass_magenta_down": {
+			"textures": "textures/blocks/clear_glass_magenta/clear_glass_down"
+		},
+		"retr_glass_clear_glass_magenta_left": {
+			"textures": "textures/blocks/clear_glass_magenta/clear_glass_left"
+		},
+		"retr_glass_clear_glass_magenta_up": {
+			"textures": "textures/blocks/clear_glass_magenta/clear_glass_up"
+		},
+		"retr_glass_clear_glass_magenta_corner_1": {
+			"textures": "textures/blocks/clear_glass_magenta/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_magenta_corner_2": {
+			"textures": "textures/blocks/clear_glass_magenta/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_magenta_corner_3": {
+			"textures": "textures/blocks/clear_glass_magenta/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_magenta_corner_4": {
+			"textures": "textures/blocks/clear_glass_magenta/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_magenta_side_1": {
+			"textures": "textures/blocks/clear_glass_magenta/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_magenta_side_2": {
+			"textures": "textures/blocks/clear_glass_magenta/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_magenta_side_3": {
+			"textures": "textures/blocks/clear_glass_magenta/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_magenta_side_4": {
+			"textures": "textures/blocks/clear_glass_magenta/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_magenta_straight_1": {
+			"textures": "textures/blocks/clear_glass_magenta/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_magenta_straight_2": {
+			"textures": "textures/blocks/clear_glass_magenta/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_magenta_intersection": {
+			"textures": "textures/blocks/clear_glass_magenta/clear_glass_intersection"
+		},
+		"retr_glass_clear_glass_orange_default": {
+			"textures": "textures/blocks/clear_glass_orange/clear_glass_default"
+		},
+		"retr_glass_clear_glass_orange_right": {
+			"textures": "textures/blocks/clear_glass_orange/clear_glass_right"
+		},
+		"retr_glass_clear_glass_orange_down": {
+			"textures": "textures/blocks/clear_glass_orange/clear_glass_down"
+		},
+		"retr_glass_clear_glass_orange_left": {
+			"textures": "textures/blocks/clear_glass_orange/clear_glass_left"
+		},
+		"retr_glass_clear_glass_orange_up": {
+			"textures": "textures/blocks/clear_glass_orange/clear_glass_up"
+		},
+		"retr_glass_clear_glass_orange_corner_1": {
+			"textures": "textures/blocks/clear_glass_orange/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_orange_corner_2": {
+			"textures": "textures/blocks/clear_glass_orange/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_orange_corner_3": {
+			"textures": "textures/blocks/clear_glass_orange/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_orange_corner_4": {
+			"textures": "textures/blocks/clear_glass_orange/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_orange_side_1": {
+			"textures": "textures/blocks/clear_glass_orange/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_orange_side_2": {
+			"textures": "textures/blocks/clear_glass_orange/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_orange_side_3": {
+			"textures": "textures/blocks/clear_glass_orange/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_orange_side_4": {
+			"textures": "textures/blocks/clear_glass_orange/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_orange_straight_1": {
+			"textures": "textures/blocks/clear_glass_orange/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_orange_straight_2": {
+			"textures": "textures/blocks/clear_glass_orange/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_orange_intersection": {
+			"textures": "textures/blocks/clear_glass_orange/clear_glass_intersection"
+		},
+		"retr_glass_clear_glass_pink_default": {
+			"textures": "textures/blocks/clear_glass_pink/clear_glass_default"
+		},
+		"retr_glass_clear_glass_pink_right": {
+			"textures": "textures/blocks/clear_glass_pink/clear_glass_right"
+		},
+		"retr_glass_clear_glass_pink_down": {
+			"textures": "textures/blocks/clear_glass_pink/clear_glass_down"
+		},
+		"retr_glass_clear_glass_pink_left": {
+			"textures": "textures/blocks/clear_glass_pink/clear_glass_left"
+		},
+		"retr_glass_clear_glass_pink_up": {
+			"textures": "textures/blocks/clear_glass_pink/clear_glass_up"
+		},
+		"retr_glass_clear_glass_pink_corner_1": {
+			"textures": "textures/blocks/clear_glass_pink/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_pink_corner_2": {
+			"textures": "textures/blocks/clear_glass_pink/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_pink_corner_3": {
+			"textures": "textures/blocks/clear_glass_pink/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_pink_corner_4": {
+			"textures": "textures/blocks/clear_glass_pink/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_pink_side_1": {
+			"textures": "textures/blocks/clear_glass_pink/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_pink_side_2": {
+			"textures": "textures/blocks/clear_glass_pink/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_pink_side_3": {
+			"textures": "textures/blocks/clear_glass_pink/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_pink_side_4": {
+			"textures": "textures/blocks/clear_glass_pink/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_pink_straight_1": {
+			"textures": "textures/blocks/clear_glass_pink/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_pink_straight_2": {
+			"textures": "textures/blocks/clear_glass_pink/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_pink_intersection": {
+			"textures": "textures/blocks/clear_glass_pink/clear_glass_intersection"
+		},
+		"retr_glass_clear_glass_red_default": {
+			"textures": "textures/blocks/clear_glass_red/clear_glass_default"
+		},
+		"retr_glass_clear_glass_red_right": {
+			"textures": "textures/blocks/clear_glass_red/clear_glass_right"
+		},
+		"retr_glass_clear_glass_red_down": {
+			"textures": "textures/blocks/clear_glass_red/clear_glass_down"
+		},
+		"retr_glass_clear_glass_red_left": {
+			"textures": "textures/blocks/clear_glass_red/clear_glass_left"
+		},
+		"retr_glass_clear_glass_red_up": {
+			"textures": "textures/blocks/clear_glass_red/clear_glass_up"
+		},
+		"retr_glass_clear_glass_red_corner_1": {
+			"textures": "textures/blocks/clear_glass_red/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_red_corner_2": {
+			"textures": "textures/blocks/clear_glass_red/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_red_corner_3": {
+			"textures": "textures/blocks/clear_glass_red/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_red_corner_4": {
+			"textures": "textures/blocks/clear_glass_red/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_red_side_1": {
+			"textures": "textures/blocks/clear_glass_red/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_red_side_2": {
+			"textures": "textures/blocks/clear_glass_red/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_red_side_3": {
+			"textures": "textures/blocks/clear_glass_red/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_red_side_4": {
+			"textures": "textures/blocks/clear_glass_red/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_red_straight_1": {
+			"textures": "textures/blocks/clear_glass_red/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_red_straight_2": {
+			"textures": "textures/blocks/clear_glass_red/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_red_intersection": {
+			"textures": "textures/blocks/clear_glass_red/clear_glass_intersection"
+		},
+		"retr_glass_clear_glass_silver_default": {
+			"textures": "textures/blocks/clear_glass_silver/clear_glass_default"
+		},
+		"retr_glass_clear_glass_silver_right": {
+			"textures": "textures/blocks/clear_glass_silver/clear_glass_right"
+		},
+		"retr_glass_clear_glass_silver_down": {
+			"textures": "textures/blocks/clear_glass_silver/clear_glass_down"
+		},
+		"retr_glass_clear_glass_silver_left": {
+			"textures": "textures/blocks/clear_glass_silver/clear_glass_left"
+		},
+		"retr_glass_clear_glass_silver_up": {
+			"textures": "textures/blocks/clear_glass_silver/clear_glass_up"
+		},
+		"retr_glass_clear_glass_silver_corner_1": {
+			"textures": "textures/blocks/clear_glass_silver/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_silver_corner_2": {
+			"textures": "textures/blocks/clear_glass_silver/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_silver_corner_3": {
+			"textures": "textures/blocks/clear_glass_silver/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_silver_corner_4": {
+			"textures": "textures/blocks/clear_glass_silver/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_silver_side_1": {
+			"textures": "textures/blocks/clear_glass_silver/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_silver_side_2": {
+			"textures": "textures/blocks/clear_glass_silver/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_silver_side_3": {
+			"textures": "textures/blocks/clear_glass_silver/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_silver_side_4": {
+			"textures": "textures/blocks/clear_glass_silver/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_silver_straight_1": {
+			"textures": "textures/blocks/clear_glass_silver/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_silver_straight_2": {
+			"textures": "textures/blocks/clear_glass_silver/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_silver_intersection": {
+			"textures": "textures/blocks/clear_glass_silver/clear_glass_intersection"
+		},
+		"retr_glass_clear_glass_white_default": {
+			"textures": "textures/blocks/clear_glass_white/clear_glass_default"
+		},
+		"retr_glass_clear_glass_white_right": {
+			"textures": "textures/blocks/clear_glass_white/clear_glass_right"
+		},
+		"retr_glass_clear_glass_white_down": {
+			"textures": "textures/blocks/clear_glass_white/clear_glass_down"
+		},
+		"retr_glass_clear_glass_white_left": {
+			"textures": "textures/blocks/clear_glass_white/clear_glass_left"
+		},
+		"retr_glass_clear_glass_white_up": {
+			"textures": "textures/blocks/clear_glass_white/clear_glass_up"
+		},
+		"retr_glass_clear_glass_white_corner_1": {
+			"textures": "textures/blocks/clear_glass_white/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_white_corner_2": {
+			"textures": "textures/blocks/clear_glass_white/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_white_corner_3": {
+			"textures": "textures/blocks/clear_glass_white/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_white_corner_4": {
+			"textures": "textures/blocks/clear_glass_white/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_white_side_1": {
+			"textures": "textures/blocks/clear_glass_white/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_white_side_2": {
+			"textures": "textures/blocks/clear_glass_white/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_white_side_3": {
+			"textures": "textures/blocks/clear_glass_white/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_white_side_4": {
+			"textures": "textures/blocks/clear_glass_white/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_white_straight_1": {
+			"textures": "textures/blocks/clear_glass_white/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_white_straight_2": {
+			"textures": "textures/blocks/clear_glass_white/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_white_intersection": {
+			"textures": "textures/blocks/clear_glass_white/clear_glass_intersection"
+		},
+		"retr_glass_clear_glass_yellow_default": {
+			"textures": "textures/blocks/clear_glass_yellow/clear_glass_default"
+		},
+		"retr_glass_clear_glass_yellow_right": {
+			"textures": "textures/blocks/clear_glass_yellow/clear_glass_right"
+		},
+		"retr_glass_clear_glass_yellow_down": {
+			"textures": "textures/blocks/clear_glass_yellow/clear_glass_down"
+		},
+		"retr_glass_clear_glass_yellow_left": {
+			"textures": "textures/blocks/clear_glass_yellow/clear_glass_left"
+		},
+		"retr_glass_clear_glass_yellow_up": {
+			"textures": "textures/blocks/clear_glass_yellow/clear_glass_up"
+		},
+		"retr_glass_clear_glass_yellow_corner_1": {
+			"textures": "textures/blocks/clear_glass_yellow/clear_glass_corner_1"
+		},
+		"retr_glass_clear_glass_yellow_corner_2": {
+			"textures": "textures/blocks/clear_glass_yellow/clear_glass_corner_2"
+		},
+		"retr_glass_clear_glass_yellow_corner_3": {
+			"textures": "textures/blocks/clear_glass_yellow/clear_glass_corner_3"
+		},
+		"retr_glass_clear_glass_yellow_corner_4": {
+			"textures": "textures/blocks/clear_glass_yellow/clear_glass_corner_4"
+		},
+		"retr_glass_clear_glass_yellow_side_1": {
+			"textures": "textures/blocks/clear_glass_yellow/clear_glass_side_1"
+		},
+		"retr_glass_clear_glass_yellow_side_2": {
+			"textures": "textures/blocks/clear_glass_yellow/clear_glass_side_2"
+		},
+		"retr_glass_clear_glass_yellow_side_3": {
+			"textures": "textures/blocks/clear_glass_yellow/clear_glass_side_3"
+		},
+		"retr_glass_clear_glass_yellow_side_4": {
+			"textures": "textures/blocks/clear_glass_yellow/clear_glass_side_4"
+		},
+		"retr_glass_clear_glass_yellow_straight_1": {
+			"textures": "textures/blocks/clear_glass_yellow/clear_glass_straight_1"
+		},
+		"retr_glass_clear_glass_yellow_straight_2": {
+			"textures": "textures/blocks/clear_glass_yellow/clear_glass_straight_2"
+		},
+		"retr_glass_clear_glass_yellow_intersection": {
+			"textures": "textures/blocks/clear_glass_yellow/clear_glass_intersection"
+		}
+	}
+}
