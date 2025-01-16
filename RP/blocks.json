@@ -1,0 +1,58 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"retr_glass:clear_glass": {
+		"sound": "glass"
+	},
+	"retr_glass:clear_glass_purple": {
+		"sound": "glass"
+	},
+	"retr_glass:clear_glass_black": {
+		"sound": "glass"
+	},
+	"retr_glass:clear_glass_blue": {
+		"sound": "glass"
+	},
+	"retr_glass:clear_glass_brown": {
+		"sound": "glass"
+	},
+	"retr_glass:clear_glass_cyan": {
+		"sound": "glass"
+	},
+	"retr_glass:clear_glass_gray": {
+		"sound": "glass"
+	},
+	"retr_glass:clear_glass_green": {
+		"sound": "glass"
+	},
+	"retr_glass:clear_glass_light_blue": {
+		"sound": "glass"
+	},
+	"retr_glass:clear_glass_lime": {
+		"sound": "glass"
+	},
+	"retr_glass:clear_glass_magenta": {
+		"sound": "glass"
+	},
+	"retr_glass:clear_glass_orange": {
+		"sound": "glass"
+	},
+	"retr_glass:clear_glass_pink": {
+		"sound": "glass"
+	},
+	"retr_glass:clear_glass_red": {
+		"sound": "glass"
+	},
+	"retr_glass:clear_glass_silver": {
+		"sound": "glass"
+	},
+	"retr_glass:clear_glass_white": {
+		"sound": "glass"
+	},
+	"retr_glass:clear_glass_yellow": {
+		"sound": "glass"
+	}
+}
