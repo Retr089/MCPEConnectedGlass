@@ -1,0 +1,19 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "retr_glass:clear_glass_gray_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "gray_stained_glass"
+			}
+		],
+		"result": {
+			"item": "retr_glass:clear_glass_gray"
+		}
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Retr089"
+		]
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "ddba361b-13ff-46c7-a8c0-5b6b83910d5f",
+		"version": [
+			1,
+			0,
+			1
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "dc1e3555-c8f0-42ab-a6d2-ad0d2ee57b4d",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/main.js",
+			"uuid": "01f93d2b-002a-4fcb-9bc3-d24d8a47376b",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.15.0"
+		}
+	]
+}

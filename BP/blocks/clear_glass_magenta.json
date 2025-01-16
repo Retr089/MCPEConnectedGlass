@@ -1,0 +1,2025 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:block": {
+		"description": {
+			"identifier": "retr_glass:clear_glass_magenta",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.glass"
+			},
+			"states": {
+				"retr_glass:texture_index": {
+					"values": {
+						"min": 0,
+						"max": 15
+					}
+				},
+				"retr_glass:sub_index": {
+					"values": {
+						"min": 0,
+						"max": 15
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:loot": "loot_tables/clear_glass_magenta_drop.json",
+			"minecraft:light_dampening": 0,
+			"minecraft:custom_components": [
+				"retr_glass:clear_glass"
+			],
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "retr_glass_clear_glass_magenta_default"
+				}
+			}
+		},
+		"permutations": [
+			{ //No Neighbors
+				"condition": "query.block_state('retr_glass:texture_index') == 0 && query.block_state('retr_glass:sub_index') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_default",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_default",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_default",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_default",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_default",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_default",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //East
+				"condition": "query.block_state('retr_glass:texture_index') == 1 && query.block_state('retr_glass:sub_index') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_right",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_left",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_left",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_right",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_default",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //South
+				"condition": "query.block_state('retr_glass:texture_index') == 2 && query.block_state('retr_glass:sub_index') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_down",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_down",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_default",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_left",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_right",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //West
+				"condition": "query.block_state('retr_glass:texture_index') == 3 && query.block_state('retr_glass:sub_index') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_left",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_right",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_right",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_default",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_left",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North
+				"condition": "query.block_state('retr_glass:texture_index') == 4 && query.block_state('retr_glass:sub_index') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_up",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_up",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_right",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_default",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_left",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-East
+				"condition": "query.block_state('retr_glass:texture_index') == 5 && query.block_state('retr_glass:sub_index') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_corner_3",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_corner_2",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_right",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_left",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //East-South
+				"condition": "query.block_state('retr_glass:texture_index') == 6 && query.block_state('retr_glass:sub_index') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_corner_4",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_corner_1",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_left",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_right",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //South-West
+				"condition": "query.block_state('retr_glass:texture_index') == 7 && query.block_state('retr_glass:sub_index') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_corner_1",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_corner_4",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_right",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_left",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //West-North
+				"condition": "query.block_state('retr_glass:texture_index') == 8 && query.block_state('retr_glass:sub_index') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_corner_2",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_corner_3",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_right",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_left",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-East-South
+				"condition": "query.block_state('retr_glass:texture_index') == 9 && query.block_state('retr_glass:sub_index') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_side_3",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_side_1",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_straight_1",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //East-South-West
+				"condition": "query.block_state('retr_glass:texture_index') == 10 && query.block_state('retr_glass:sub_index') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_side_4",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_side_4",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_straight_1",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //South-West-North
+				"condition": "query.block_state('retr_glass:texture_index') == 11 && query.block_state('retr_glass:sub_index') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_side_1",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_side_3",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_straight_1",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //West-North-East
+				"condition": "query.block_state('retr_glass:texture_index') == 12 && query.block_state('retr_glass:sub_index') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_side_2",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_side_2",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_straight_1",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //Cardinal
+				"condition": "query.block_state('retr_glass:texture_index') == 13 && query.block_state('retr_glass:sub_index') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_intersection",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_intersection",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //Excluding Up
+				"condition": "query.block_state('retr_glass:texture_index') == 14 && query.block_state('retr_glass:sub_index') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_intersection",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //Excluding down
+				"condition": "query.block_state('retr_glass:texture_index') == 15 && query.block_state('retr_glass:sub_index') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //All
+				"condition": "query.block_state('retr_glass:texture_index') == 0 && query.block_state('retr_glass:sub_index') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //Up
+				"condition": "query.block_state('retr_glass:texture_index') == 1 && query.block_state('retr_glass:sub_index') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_default",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_up",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_up",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_up",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_up",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //Down
+				"condition": "query.block_state('retr_glass:texture_index') == 2 && query.block_state('retr_glass:sub_index') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_default",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_down",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_down",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_down",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_down",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //Up-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 3 && query.block_state('retr_glass:sub_index') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_straight_2",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_straight_2",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_straight_2",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_straight_2",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-South
+				"condition": "query.block_state('retr_glass:texture_index') == 4 && query.block_state('retr_glass:sub_index') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_straight_2",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_straight_2",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_straight_1",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_straight_1",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //East-West
+				"condition": "query.block_state('retr_glass:texture_index') == 5 && query.block_state('retr_glass:sub_index') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_straight_1",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_straight_1",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_straight_1",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_straight_1",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 6 && query.block_state('retr_glass:sub_index') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_up",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_corner_4",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_down",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_corner_1",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-Up
+				"condition": "query.block_state('retr_glass:texture_index') == 7 && query.block_state('retr_glass:sub_index') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_up",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_corner_3",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_up",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_corner_2",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //South-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 8 && query.block_state('retr_glass:sub_index') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_down",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_down",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_corner_1",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_corner_4",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //South-Up
+				"condition": "query.block_state('retr_glass:texture_index') == 9 && query.block_state('retr_glass:sub_index') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_down",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_up",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_corner_2",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_corner_3",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //East-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 10 && query.block_state('retr_glass:sub_index') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_right",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_corner_1",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_corner_4",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_down",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //East-Up
+				"condition": "query.block_state('retr_glass:texture_index') == 11 && query.block_state('retr_glass:sub_index') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_left",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_corner_2",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_corner_3",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_up",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //West-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 12 && query.block_state('retr_glass:sub_index') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_left",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_corner_4",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_down",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_corner_1",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //West-Up
+				"condition": "query.block_state('retr_glass:texture_index') == 13 && query.block_state('retr_glass:sub_index') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_right",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_corner_3",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_up",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_corner_2",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //Up-Down-East-West
+				"condition": "query.block_state('retr_glass:texture_index') == 14 && query.block_state('retr_glass:sub_index') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_intersection",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_intersection",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //Up-Down-North-South
+				"condition": "query.block_state('retr_glass:texture_index') == 15 && query.block_state('retr_glass:sub_index') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_intersection",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_intersection",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //Up-Down-East
+				"condition": "query.block_state('retr_glass:texture_index') == 0 && query.block_state('retr_glass:sub_index') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_side_1",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_side_3",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_straight_2",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //Up-Down-West
+				"condition": "query.block_state('retr_glass:texture_index') == 1 && query.block_state('retr_glass:sub_index') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_side_3",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_straight_2",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_side_1",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //Up-Down-North
+				"condition": "query.block_state('retr_glass:texture_index') == 2 && query.block_state('retr_glass:sub_index') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_side_3",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_straight_2",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_side_1",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //Up-Down-South
+				"condition": "query.block_state('retr_glass:texture_index') == 3 && query.block_state('retr_glass:sub_index') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_straight_2",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_side_1",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_side_3",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-Down-South
+				"condition": "query.block_state('retr_glass:texture_index') == 4 && query.block_state('retr_glass:sub_index') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_straight_2",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_side_4",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_side_4",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-Up-South
+				"condition": "query.block_state('retr_glass:texture_index') == 5 && query.block_state('retr_glass:sub_index') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_straight_2",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_side_2",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_side_2",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //East-Up-West
+				"condition": "query.block_state('retr_glass:texture_index') == 6 && query.block_state('retr_glass:sub_index') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_straight_1",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_side_2",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_side_2",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //East-Down-West
+				"condition": "query.block_state('retr_glass:texture_index') == 7 && query.block_state('retr_glass:sub_index') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_straight_1",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_side_4",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_side_4",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-Down-East-West
+				"condition": "query.block_state('retr_glass:texture_index') == 8 && query.block_state('retr_glass:sub_index') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_side_2",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_side_4",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //South-Down-East-West
+				"condition": "query.block_state('retr_glass:texture_index') == 9 && query.block_state('retr_glass:sub_index') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_side_4",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_side_4",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //South-Up-East-West
+				"condition": "query.block_state('retr_glass:texture_index') == 10 && query.block_state('retr_glass:sub_index') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_side_4",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_side_2",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-Up-East-West
+				"condition": "query.block_state('retr_glass:texture_index') == 11 && query.block_state('retr_glass:sub_index') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_side_2",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_side_2",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-East-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 12 && query.block_state('retr_glass:sub_index') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_corner_3",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_corner_4",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_corner_1",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-West-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 13 && query.block_state('retr_glass:sub_index') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_corner_2",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_corner_4",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_corner_1",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-West-Up
+				"condition": "query.block_state('retr_glass:texture_index') == 14 && query.block_state('retr_glass:sub_index') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_corner_3",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_corner_3",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_corner_2",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-East-Up
+				"condition": "query.block_state('retr_glass:texture_index') == 15 && query.block_state('retr_glass:sub_index') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_corner_2",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_corner_3",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_corner_2",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //South-Down-West
+				"condition": "query.block_state('retr_glass:texture_index') == 0 && query.block_state('retr_glass:sub_index') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_corner_1",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_corner_4",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_corner_1",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //South-Down-East
+				"condition": "query.block_state('retr_glass:texture_index') == 1 && query.block_state('retr_glass:sub_index') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_corner_4",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_corner_1",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_corner_4",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //South-Up-East
+				"condition": "query.block_state('retr_glass:texture_index') == 2 && query.block_state('retr_glass:sub_index') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_corner_1",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_corner_2",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_corner_3",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //South-Up-West
+				"condition": "query.block_state('retr_glass:texture_index') == 3 && query.block_state('retr_glass:sub_index') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_corner_4",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_corner_3",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_corner_2",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-East-South-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 4 && query.block_state('retr_glass:sub_index') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_side_3",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_side_4",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-East-South-Up
+				"condition": "query.block_state('retr_glass:texture_index') == 5 && query.block_state('retr_glass:sub_index') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_side_1",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_side_2",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-West-South-Up
+				"condition": "query.block_state('retr_glass:texture_index') == 6 && query.block_state('retr_glass:sub_index') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_magenta_side_3",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_side_2",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-West-South-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 7 && query.block_state('retr_glass:sub_index') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_magenta_side_1",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_side_4",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //East-South-Up-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 8 && query.block_state('retr_glass:sub_index') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_side_1",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_side_3",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //South-West-Up-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 9 && query.block_state('retr_glass:sub_index') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_side_3",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_side_1",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //West-North-Up-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 10 && query.block_state('retr_glass:sub_index') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_side_3",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_side_1",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-East-Up-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 11 && query.block_state('retr_glass:sub_index') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_side_3",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_side_1",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //East-South-West-Up-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 12 && query.block_state('retr_glass:sub_index') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_magenta_intersection",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //South-West-North-Up-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 13 && query.block_state('retr_glass:sub_index') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_magenta_intersection",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //West-North-East-Up-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 14 && query.block_state('retr_glass:sub_index') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_magenta_intersection",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{ //North-East-South-Up-Down
+				"condition": "query.block_state('retr_glass:texture_index') == 15 && query.block_state('retr_glass:sub_index') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"down": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"north": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"east": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"south": {
+							"texture": "retr_glass_clear_glass_empty",
+							"render_method": "blend"
+						},
+						"west": {
+							"texture": "retr_glass_clear_glass_magenta_intersection",
+							"render_method": "blend"
+						}
+					}
+				}
+			}
+		]
+	}
+}
